@@ -2,5 +2,20 @@ Remove arquivo .git
 rm -rf .git
 
 Remove as últimas alterações
-git restore
+git restore (nome do arquivo)
 
+Renomeando último commit
+git commit --amend -m "renomeação"
+
+git reset --soft (hash do commit) retorna para stage área
+
+git reset --mixed (hash do commit) area de tabalho
+
+git reset --hard (hash do commit) ignora e apaga todos arquivos 
+
+
+git reflog retorna todas alterações feitas
+
+Sincronização repositório remoto com local
+
+$ git remote add origin nome do repositório
