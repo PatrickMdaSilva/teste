@@ -1,0 +1,6 @@
+Remove arquivo .git
+rm -rf .git
+
+Remove as últimas alterações
+git restore
+
